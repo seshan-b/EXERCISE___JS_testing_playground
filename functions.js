@@ -13,11 +13,10 @@ function passingArgs(x, y, z) {
   console.log('Passing arguments', x, y, z)
 }
 
-// Invoke and pass values
+// Invoke and pass values for argument variables
 passingArgs(1, 2, 3)
 
 // Passing Variable in arguments
-
 function passingVariablesInFunction(a, b, c) {
   // a = 1
   // b = 2
@@ -71,7 +70,7 @@ const anArrowFunction = (a, b, c) => {
 }
 
 function setTimeout(foo, time) {
-  console.log('Return foo')
+  console.log('Return foo', time)
   foo()
 }
 
